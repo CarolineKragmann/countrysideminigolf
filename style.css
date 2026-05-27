@@ -14,33 +14,94 @@
     height: 500px;
 }
 /*H1*/
-H1 {
-    font-size: 3rem;
+.welcome-section {
+    max-width: 1200px;
+    margin: 80px auto;
     text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.welcome-section h1 {
     font-family: 'Otomanopee One', sans-serif;
-
+    font-size: 3.5rem;
+    color: #2f6b3f;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
 }
 
-/*H2*/
-H2 {
-    text-align: center;
+.welcome-section h2 {
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 25px;
 }
-H3{
-     text-align: center;
 
+.welcome-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.welcome-section .closing-text {
+    font-weight: bold;
+    color: #c82f2f;
+    margin-top: 25px;
 }
 
 /*Event billede*/
-img {
-    width: 1200px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    object-fit: cover;
-    object-position: center;
-
+.carousel {
+    width: 150%;
+    max-width: 900px;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
+/* 8 billeder = 800% bredde */
+.slides {
+    display: flex;
+    width: 800%;
+    animation: slide 30s infinite; /* 8 billeder × 5 sek */
+}
+
+/* Hvert billede fylder 1/8 af rækken */
+.slides img {
+    width: 12.5%;      /* 100 / 8 */
+    height: 600px;
+    object-fit: cover;
+}
+
+/* Animation – 8 stop á 5 sek */
+@keyframes slide {
+    0%    { transform: translateX(0); }
+    12.5% { transform: translateX(0); }
+
+    12.6% { transform: translateX(-12.5%); }
+    25%   { transform: translateX(-12.5%); }
+
+    25.1% { transform: translateX(-25%); }
+    37.5% { transform: translateX(-25%); }
+
+    37.6% { transform: translateX(-37.5%); }
+    50%   { transform: translateX(-37.5%); }
+
+    50.1% { transform: translateX(-50%); }
+    62.5% { transform: translateX(-50%); }
+
+    62.6% { transform: translateX(-62.5%); }
+    75%   { transform: translateX(-62.5%); }
+
+    75.1% { transform: translateX(-75%); }
+    87.5% { transform: translateX(-75%); }
+
+    87.6% { transform: translateX(-87.5%); }
+    100%  { transform: translateX(-87.5%); }
+}
 /*Vores Event Boks*/
 .event-box {
     width: 600px;

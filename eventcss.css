@@ -13,20 +13,42 @@
     height: 500px;
 }
 /*H1*/
-H1 {
-    font-size: 3rem;
+.welcome-section {
+    max-width: 1200px;
+    margin: 80px auto;
     text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.welcome-section h1 {
     font-family: 'Otomanopee One', sans-serif;
-
+    font-size: 3.5rem;
+    color: #2f6b3f;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
 }
 
-/*H2*/
-H2 {
-    text-align: center;
+.welcome-section h2 {
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 25px;
 }
-H3{
-    text-align: center;
 
+.welcome-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.welcome-section .closing-text {
+    font-weight: bold;
+    color: #c82f2f;
+    margin-top: 25px;
 }
 /* Wrapper der placerer video og tekst ved siden af hinanden */
 .video-event-wrapper {
