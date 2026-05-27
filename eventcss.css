@@ -1,0 +1,254 @@
+/*Header*/
+.navbar-gradient {
+    background: linear-gradient(135deg, #005a25 0%, #005a25 100%);
+}
+
+.hero-section {
+    background-image:url("Billeder/Event billede.png");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 300px 0;
+    height: 500px;
+}
+/*H1*/
+H1 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Otomanopee One', sans-serif;
+
+}
+
+/*H2*/
+H2 {
+    text-align: center;
+}
+H3{
+    text-align: center;
+
+}
+/* Wrapper der placerer video og tekst ved siden af hinanden */
+.video-event-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 80px auto;
+}
+
+/* VIDEO */
+.video-box video {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+/* EVENT-BOKS */
+.event-box {
+    background-color: #2f6b3f; /* Countryside grøn */
+    padding: 40px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    color: white;
+}
+
+/* Tekst i boksen */
+.event-content h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.event-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Knap */
+.btn-read {
+    display: inline-block;
+    background: white;
+    color: #2f6b3f;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn-read:hover {
+    background: #e6e6e6;
+}
+
+/*Bok Vores evnet bokse*/
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px 0;
+}
+
+.box {
+    width: 300px;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.box img {
+    width: 130%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.box h3 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.btn-read {
+    display: inline-block;
+    background: #960808;
+    color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-read:hover {
+    background: #c82f2f;
+}
+
+/*særlig efterspørsel*/
+.opening-hours-box {
+
+    max-width: 900px;
+
+    margin: 60px auto;
+
+    padding: 40px;
+
+    background: #ffffff;
+
+    border-radius: 20px;
+
+
+    text-align: center;
+
+}
+
+.opening-hours-box h2 {
+
+    font-size: 3rem;
+
+    margin-bottom: 30px;
+
+}
+
+.hours-box {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 40px;
+
+    margin-bottom: 30px;
+
+}
+
+.season h3 {
+
+    font-size: 1.4rem;
+
+    margin-bottom: 10px;
+
+}
+
+.season span {
+
+    font-size: 0.9rem;
+
+    color: #555;
+
+}
+
+.season ul {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+
+    text-align: left;
+
+}
+.season li {
+
+    margin-bottom: 8px;
+
+    font-size: 1rem;
+
+}
+
+.contact-text {
+
+    margin: 20px 0;
+
+    font-size: 1rem;
+
+}
+.btn-contact {
+
+    display: inline-block;
+
+    background: #960808;
+
+    color: #fff;
+
+    padding: 12px 30px;
+
+    border-radius: 5px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+}
+
+.btn-contact:hover {
+
+}
+
+/*Footer*/
+.footer {
+    background-color: #005a25;
+    padding: 40px 20px;
+    margin-top: 60px;
+}
+
+.footer-inner {
+    max-width: 1100px; /* matcher dit billede */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+.footer-left p {
+    margin: 4px 0;
+    font-size: 1.1rem;
+    object-position: center;
+}

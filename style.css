@@ -10,7 +10,8 @@
     background-position: center;
     color: #ffffff;
     text-align: center;
-    padding: 250px 0;
+    padding: 300px 0;
+    height: 500px;
 }
 /*H1*/
 H1 {
@@ -26,7 +27,9 @@ H2 {
 }
 H3{
      text-align: center;
+
 }
+
 /*Event billede*/
 img {
     width: 1200px;
@@ -35,12 +38,13 @@ img {
     margin: 0 auto;
     object-fit: cover;
     object-position: center;
+
 }
 
 /*Vores Event Boks*/
 .event-box {
     width: 600px;
-    max-width: 1400px auto;
+    max-width: 1400px;
     margin: 40px auto;
     background: #fff;
     border-radius: 20px;
@@ -128,3 +132,167 @@ img {
     background: #c82f2f;
 }
 
+/*Vores åbenningstider*/
+ .opening-hours-box {
+     
+     max-width: 900px;
+     
+     margin: 60px auto;
+     
+     padding: 40px;
+     
+     background: #ffffff;
+     
+     border-radius: 20px;
+     
+     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+     
+     text-align: center;
+     
+ }
+
+ .opening-hours-box h2 {
+     
+     font-size: 3rem;
+     
+     margin-bottom: 30px;
+     
+ }
+
+ .hours-box {
+     
+     display: flex;
+     
+     justify-content: space-between;
+     
+     gap: 40px;
+     
+     margin-bottom: 30px;
+     
+ }
+
+ .season h3 {
+     
+     font-size: 1.4rem;
+     
+     margin-bottom: 10px;
+     
+ }
+
+ .season span {
+     
+     font-size: 0.9rem;
+     
+     color: #555;
+     
+ }
+
+ .season ul {
+     
+     list-style: none;
+     
+     padding: 0;
+     
+     margin: 0;
+     
+     text-align: left;
+     
+ }
+ .season li {
+     
+     margin-bottom: 8px;
+     
+     font-size: 1rem;
+     
+ }
+
+ .contact-text {
+     
+     margin: 20px 0;
+     
+     font-size: 1rem;
+     
+ }
+ .btn-contact {
+     
+     display: inline-block;
+     
+     background: #960808;
+     
+     color: #fff;
+     
+     padding: 12px 30px;
+     
+     border-radius: 5px;
+     
+     text-decoration: none;
+     
+     font-weight: bold;
+     
+ }
+
+ .btn-contact:hover {
+     
+ }
+
+ /*Vores kort gide*/
+  
+   .transport-box {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    text-align: center;
+}
+    .transport-box h2 {
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+}
+
+.transport-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.transport-text {
+    flex: 1;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.transport-image {
+    flex: 1;
+}
+
+.transport-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+   /*Footer*/
+  .footer {
+      background-color: #005a25;
+      padding: 40px 20px;
+      margin-top: 60px;
+  }
+
+  .footer-inner {
+      max-width: 1100px; /* matcher dit billede */
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #ffffff;
+  }
+
+  .footer-left p {
+      margin: 4px 0;
+      font-size: 1.1rem;
+  object-position: center;
+  }

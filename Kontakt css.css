@@ -1,0 +1,14 @@
+/*Header*/
+.navbar-gradient {
+    background: linear-gradient(135deg, #005a25 0%, #005a25 100%);
+}
+
+.hero-section {
+    background-image:url("Billeder/Hero 2.png");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 300px 0;
+    height: 500px;
+}
