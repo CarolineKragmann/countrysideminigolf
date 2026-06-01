@@ -8,6 +8,7 @@ nav{
     padding: 2% !important;
 }
 
+/* hero billede */
 .hero-section {
     background-image: url("Billeder/Hero 2.png");
     background-size: cover;
@@ -16,12 +17,20 @@ nav{
     color: #ffffff;
     text-align: center;
 
-    padding: 120px 20px; /* fleksibel */
-    min-height: 80vh; /* billedet fylder 80% af skærmen */
+    padding: 100px 20px; /* fleksibel */
+    min-height: 60vh; /* billedet fylder 60% af skærmen */
 
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* hero billede tilpasset mobil */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 15px;
+        min-height: 40vh;
+    }
 }
 
 /*H1*/
