@@ -70,14 +70,18 @@ nav{
     color: #c82f2f;
     margin-top: 25px;
 }
+
 /* Wrapper der placerer video og tekst ved siden af hinanden */
 .video-event-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
+
     max-width: 1200px;
     margin: 80px auto;
+
+    flex-wrap: wrap; /* gør den responsiv */
 }
 
 /* VIDEO */
@@ -128,16 +132,19 @@ nav{
     background: #e6e6e6;
 }
 
-/*Bok Vores evnet bokse*/
+/*Vores pakker bokse*/
 .box-container {
     display: flex;
     justify-content: center;
     gap: 40px;
     margin: 50px 0;
+    flex-wrap: wrap; /* gør den responsiv */
 }
 
 .box {
-    width: 300px;
+    width: 100%;
+    max-width: 300px; /* fleksibel i stedet for fast */
+
     background: #fff;
     border-radius: 15px;
     overflow: hidden;
@@ -146,7 +153,7 @@ nav{
 }
 
 .box img {
-    width: 130%;
+    width: 100%;
     height: 350px;
     object-fit: cover;
 }
@@ -284,6 +291,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap; /* gør den responsiv */
+    gap: 30px;
 }
 
 .footer-left h1 {
