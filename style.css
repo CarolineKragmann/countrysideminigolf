@@ -12,10 +12,16 @@ nav{
     background-image: url("Billeder/Hero 2.png");
     background-size: cover;
     background-position: center;
+
     color: #ffffff;
     text-align: center;
-    padding: 300px 0;
-    height: 500px;
+
+    padding: 120px 20px; /* fleksibel */
+    min-height: 80vh; /* billedet fylder 80% af skærmen */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*H1*/
