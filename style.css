@@ -4,6 +4,10 @@
     background: linear-gradient(135deg, #005a25 0%, #005a25 100%);
 }
 
+nav{
+    padding: 2% !important;
+}
+
 .hero-section {
     background-image:url("Billeder/Hero 2.png");
     background-size: cover;
