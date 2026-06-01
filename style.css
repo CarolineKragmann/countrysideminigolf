@@ -352,22 +352,59 @@
      width: 500px; /* str på den */
 }
    /*Footer*/
-  .footer {
-      background-color: #005a25;
-      padding: 40px 40px 40px;
-      margin-top: 60px;
-  }
-
-.footer-inner {
-    color: white;
+.footer {
+    background-color: #0b5d2a; /* mørkegrøn */
+    color: #f2eadf; /* lys beige tekst */
+    padding: 40px 60px 20px;
+    font-family: Arial, sans-serif;
 }
 
-.footer-left {
-    text-align: left;
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-left h1 {
+    margin: 0;
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+
+.footer-left h2 {
+    margin: 0 0 20px;
+    font-size: 30px;
+}
+
+.footer-left p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
 }
 
 .copy {
     text-align: center;
     color: white;
     margin-top: 30px;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #f2eadf;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #cde6c7;
 }
