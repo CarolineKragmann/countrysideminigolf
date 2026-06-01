@@ -7,15 +7,31 @@ nav{
     padding: 2% !important;
 }
 
+/* hero billede */
 .hero-section {
-    background-image:url("Billeder/Event billede.png");
+    background-image: url("Billeder/Event billede.png");
     background-size: cover;
     background-position: center;
+
     color: #ffffff;
     text-align: center;
-    padding: 300px 0;
-    height: 500px;
+
+    padding: 100px 20px; /* fleksibel */
+    min-height: 60vh; /* billedet fylder 60% af skærmen */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+/* hero billede tilpasset mobil */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 15px;
+        min-height: 40vh;
+    }
+}
+
 /*H1*/
 .welcome-section {
     max-width: 1200px;
