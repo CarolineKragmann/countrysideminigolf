@@ -150,6 +150,14 @@
     background: #c82f2f;
 }
 
+
+ /* Lille golf Billede */
+.lillegolfbillede{
+    display: block;
+    margin: 0 auto;
+     width: 150px; /* str på den */
+}     
+
 /*Bok Aktiviteter og pakker*/
 .box-container {
     display: flex;
@@ -335,6 +343,13 @@
     height: auto;
     border-radius: 15px;
     object-fit: cover;
+}
+
+ /* Lille golfbane Billede før footer*/
+.golfbilledeførfooter{
+    display: block;
+    margin: 0 auto;                  
+     width: 500px; /* str på den */
 }
    /*Footer*/
   .footer {
